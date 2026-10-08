@@ -228,15 +228,17 @@ FEATURES
 */
 
 #features {
-  height: 1000px;
+  padding-top: 8vw;
   background-color: rgba(115, 66, 214, 0.1);
+  position: relative;
 }
 
 .feature__title {
   font-size: 32px;
-  margin-top: 55px;
   margin-bottom: 10px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .feature__wrapper {
@@ -253,8 +255,8 @@ FEATURES
 }
 
 .feature__img{
-  width: 300px;
-  height: 358px;
+  width: 250px;
+  height: 250px;
   padding: 10px;
   display: flex;
   align-items: center;
