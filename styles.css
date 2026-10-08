@@ -234,8 +234,8 @@ FEATURES
 
 .feature__title {
   font-size: 32px;
-  margin-top: 38px;
-  margin-bottom: 25px;
+  margin-top: 55px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -254,7 +254,8 @@ FEATURES
 
 .feature__img{
   width: 300px;
-  height: 300px;
+  height: 358px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
